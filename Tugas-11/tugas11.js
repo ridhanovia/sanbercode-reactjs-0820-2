@@ -49,10 +49,9 @@ class Tugas11 extends Component{
           {this.state.showTime && (
             <>
               <center>
-            <h1>Sekarang jam =   
-              {this.state.time.toLocaleTimeString()}
+            <h1>Sekarang jam = {this.state.time.toLocaleTimeString()}
             </h1>
-        <h1>{count}</h1>
+            <h1>Hitung mundur : {count}</h1>
             </center>
             </>
           )}
