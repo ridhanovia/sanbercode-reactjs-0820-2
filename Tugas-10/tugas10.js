@@ -29,7 +29,7 @@ class Tugas10 extends React.Component{
                     <tr className="table2">
                     <td>{el.nama}</td>
                     <td>{el.harga}</td>
-                    <td>{el.berat}</td>
+                    <td>{el.berat/1000} kg</td>
                     </tr>
                     )
                 })}
