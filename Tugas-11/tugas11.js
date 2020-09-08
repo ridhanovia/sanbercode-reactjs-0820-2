@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Tugas11 extends Component{
     constructor(props){
         super(props)
-        this.state={time : new Date(), count :101, showTime : true}
+        this.state={time : new Date(), count :3, showTime : true}
     }
 
     clock(){
